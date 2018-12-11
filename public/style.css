@@ -1,0 +1,78 @@
+/****** Main Styling ******/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #222;
+	background-color: #F8F8FF;
+	text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form > input {
+  margin: 1rem auto;
+}
+
+.container {
+	padding: 0;
+	margin-top: 40px;
+}
+
+.footer {
+	margin-top: 60px;
+}
+
+ol {
+	list-style-position: inside;
+}
+ul {
+	list-style-type: none;
+}
+
+li {
+  margin: 8px;
+}
+
+a {
+	color: #2574A9;
+}
+
+input {
+  display: block;
+  position: relative;
+  margin: 10px auto;
+
+}
+
+input#inputfield {
+  width: 230px;
+}
+
+input#button {
+  width: 230px;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  box-shadow: 2px 3px 6px lightgrey
+}
+
+.view {
+  position:relative;
+  margin: auto;
+  margin-top: 40px;
+  border: 1px  solid  #aaa;
+  padding: 20px;
+  width: 30%;
+  min-width: 400px;
+}
+
+/****** Logo Div Styling ******/
+
+img {
+	margin: 20px auto 0 auto;
+	display: block;
+}
